@@ -31,3 +31,7 @@ jobs:
         
       - name: Run another script
         run: echo World
+    
+      - name: Run a test
+        run: test -f ./rainbow-fruit.md
+        
